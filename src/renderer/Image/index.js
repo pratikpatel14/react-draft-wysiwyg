@@ -16,7 +16,6 @@ const getImageComponent = config => class Image extends Component {
   };
 
   handleClick = (e) =>{
-    console.log("e.target",e.target)
     const height = e.target.style.height;
     const width = e.target.style.width;
     if(height && width){
